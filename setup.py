@@ -2,10 +2,10 @@
 """Setup script"""
 
 from setuptools import setup
-import kibitzr_sentry
 
 
-README = kibitzr_sentry.__doc__
+with open('README.md') as fp:
+    README = fp.read()
 
 
 setup(
