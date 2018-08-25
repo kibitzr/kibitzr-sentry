@@ -1,0 +1,5 @@
+/__pycache__/
+/build/
+/dist/
+/kibitzr_sentry.egg-info/
+*.pyc
