@@ -13,6 +13,7 @@ setup(
     version='1.0.0',
     description="Kibitzr integration with Sentry",
     long_description=README,
+    long_description_content_type='text/markdown',
     author="Peter Demin",
     author_email='kibitzrrr@gmail.com',
     url='https://github.com/kibitzr/kibitzr-sentry',
