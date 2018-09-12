@@ -1,5 +1,7 @@
 # kibitzr-sentry
 
+[![PyPI](https://badge.fury.io/py/kibitzr-sentry.svg)](https://pypi.org/project/kibitzr-sentry/)
+
 Send errors from Kibitzr checks to Sentry.
 
 # Installation
