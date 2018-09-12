@@ -10,7 +10,7 @@ with open('README.md') as fp:
 
 setup(
     name='kibitzr-sentry',
-    version='0.0.2',
+    version='1.0.0',
     description="Kibitzr integration with Sentry",
     long_description=README,
     author="Peter Demin",
@@ -29,7 +29,7 @@ setup(
     zip_safe=False,
     keywords='kibitzr',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
