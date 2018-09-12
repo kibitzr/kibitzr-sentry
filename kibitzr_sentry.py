@@ -34,13 +34,13 @@ LOG_LEVEL_CODES = {
 }
 
 
-def setup_sentry_handler(sentry_dsn, level=logging.ERROR):
+def setup_sentry_handler(sentry_dsn, level=None):
     """
     Setup Sentry logging handler.
     https://docs.sentry.io/clients/python/integrations/logging/
     """
     handler = SentryHandler(sentry_dsn)
-    handler.setLevel(level)
+    handler.setLevel(level or logging.ERROR)
     setup_logging(handler)
 
 
