@@ -23,5 +23,5 @@ clean-pyc: ## remove Python file artifacts
 
 .PHONY: release
 release: clean ## package and upload a release
-	python setup.py sdist bdist_wheel
+	python setup.py sdist bdist_wheel --universal
 	twine upload dist/*
